@@ -1,0 +1,40 @@
+.logo>img{
+    width: 150px;
+    height: auto;
+}
+
+body{
+    padding: 10px;
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#nav-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-lista>li{
+    margin-right: 30px;
+    font-size: large;
+}
+
+#container{
+    width: 98vw;
+    height: 75vh;
+}
+
+#rodape{
+    width: 98vw;
+    height: 15vh;
+}
