@@ -37,7 +37,6 @@ body{
 #rodape{
     width: 98vw;
     height: 15vh;
-    background-color: aqua;
 }
 
 #cartao-lista{
@@ -52,7 +51,7 @@ body{
 .cartao{
     width: 250px;
     height: 350px;
-    box-shadow: 1px 1px 4px;
+    box-shadow: 1px 1px 5px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -67,8 +66,36 @@ body{
 }
 
 .cartao-info{
+    height: 30%;
     margin-top: 20px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cartao-info>h5{
+    font-size: 10px;
+    font-weight: bolder;
+    color: rgba(1, 1, 1, 0.7);
+}
+
+.cartao-info>p{
+    margin-top: 5px;
+}
+
+.cartao-info>button{
+    margin-top: 5px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.cartao-info>button:hover{
+    color: whitesmoke;
+    background-color: rgba(1, 1, 1, 0.7);
 }
 
 .cartao-img>img{
